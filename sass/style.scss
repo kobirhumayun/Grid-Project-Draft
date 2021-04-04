@@ -3,7 +3,8 @@
 @import 'variable';
 
 .body-container {
-    width: 60%;
+    // width: 80%;
+    width: 80rem;
     margin: 30px auto;
 
 }
@@ -17,7 +18,7 @@
 
 .drop-container {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6, 1fr);
     gap: 15px;
     margin: auto;
     font-size: 25px;
@@ -27,7 +28,8 @@
     ul {
         list-style: none;
         text-align: center;
-        width: 160px;
+        // width: 160px;
+        width: 10rem;
 
         li {
             position: relative;
@@ -74,7 +76,7 @@
                 }
 
                 ul {
-                    left: 160px;
+                    left: 10rem;
 
                     a {
                         color: $normal-drop-color;
@@ -107,7 +109,7 @@
 // Layout-1
 
 .layout-1{
-    width: 80%;
+    width: 80rem;
     margin: 40px auto;
     color: #fff;
     font-size: 25px;
