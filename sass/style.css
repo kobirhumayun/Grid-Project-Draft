@@ -6,7 +6,7 @@
 }
 
 .body-container {
-  width: 80rem;
+  width: 80%;
   margin: 30px auto;
 }
 
@@ -34,7 +34,6 @@
 .drop-container ul {
   list-style: none;
   text-align: center;
-  width: 10rem;
 }
 
 .drop-container ul li {
